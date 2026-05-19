@@ -2,8 +2,7 @@
 
 PipeWire / wireplumber 操作 (= `wpctl status` parse + `set-volume` / `set-default` /
 `set-profile` 等) を MCP tool として expose する Claude 用 stdio server。
-
-「pipewire / wireplumber 難しくてよくわからない」 を Claude に丸投げするのが目的。
+pwvucontrol 相当の操作を Claude の自然言語経由で扱えるようにする。
 
 ## tools (MVP)
 
@@ -34,7 +33,7 @@ pipx install ~/repos/nekono-pipewire-mcp
 }
 ```
 
-Claude Code 再起動後、 「現在の audio 状態を 1 行で」 「volume を 80% にして」 等で動作確認。
+Claude Code 再起動後、 状態取得 / volume 変更 / sink 切替などを依頼して動作確認。
 
 ## 前提
 
