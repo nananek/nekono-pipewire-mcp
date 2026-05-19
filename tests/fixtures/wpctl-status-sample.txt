@@ -1,0 +1,53 @@
+PipeWire 'pipewire-0' [1.6.5, kts_sz@ayaka, cookie:3538793680]
+ └─ Clients:
+        33. WirePlumber                         [1.6.5, kts_sz@ayaka, pid:1372]
+        34. pipewire                            [1.6.5, kts_sz@ayaka, pid:1371]
+        35. pipewire                            [1.6.5, kts_sz@ayaka, pid:1373]
+        46. WirePlumber [export]                [1.6.5, kts_sz@ayaka, pid:1372]
+        53. xdg-desktop-portal                  [1.6.5, kts_sz@ayaka, pid:82801]
+        65. waybar                              [1.6.5, kts_sz@ayaka, pid:82810]
+        85. nekonopaw                           [1.6.5, kts_sz@ayaka, pid:2083]
+        86. wpctl                               [1.6.5, kts_sz@ayaka, pid:90766]
+        87. kitty Terminal                      [1.6.5, kts_sz@ayaka, pid:82950]
+        92. Firefox                             [1.6.5, kts_sz@ayaka, pid:83627]
+        93. Firefox                             [1.6.5, kts_sz@ayaka, pid:83627]
+
+Audio
+ ├─ Devices:
+ │      61. Ryzen HD Audio Controller           [alsa]
+ │      70. Live Gamer MINI                     [alsa]
+ │      72. Steinberg UR22mkII                  [alsa]
+ │      73. Raven/Raven2/Fenghuang HDMI/DP Audio Controller [alsa]
+ │  
+ ├─ Sinks:
+ │  *   75. Steinberg UR22mkII  Direct Steinberg UR22mkII [vol: 1.00]
+ │  
+ ├─ Sources:
+ │  *   79. Steinberg UR22mkII  Direct Steinberg UR22mkII [vol: 1.00]
+ │      80. Live Gamer MINI デジタルステレオ (IEC958) [vol: 1.00]
+ │  
+ ├─ Filters:
+ │    - loopback-1371-29                                            
+ │      38. lgm_loopback                                                 [Stream/Output/Audio]
+ │      39. input.loopback-1371-29                                       [Stream/Input/Audio]
+ │  
+ └─ Streams:
+
+Video
+ ├─ Devices:
+ │      57. Live Gamer MINI                     [v4l2]
+ │      71. Live Gamer MINI                     [v4l2]
+ │  
+ ├─ Sinks:
+ │  
+ ├─ Sources:
+ │  *   81. Live Gamer MINI (V4L2)             
+ │  
+ ├─ Filters:
+ │  
+ └─ Streams:
+
+Settings
+ └─ Default Configured Devices:
+         0. Audio/Sink    alsa_output.usb-Yamaha_Corporation_Steinberg_UR22mkII-00.Direct__Direct__sink
+         1. Audio/Source  alsa_input.usb-Yamaha_Corporation_Steinberg_UR22mkII-00.Direct__Direct__source
